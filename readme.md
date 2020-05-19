@@ -5,8 +5,31 @@ The model is based on the paper [3D MRI Brain Tumor Segmentation using Autoencod
 
 Credits goes to the original authors of the paper.
 
+## Setup
+Create the environment using `conda`
+```
+$ conda env create -f environment.yml
+```
+
+Activate the environment using
+```
+$ conda activate model-server
+```
+
+Run the flask development server using
+```
+$ python app.py
+```
+
+## Results
+Managed to get upto 80% accuracy in 800 epochs. This differs from the accuracy and number of epochs stated in the paper as learning rate scheduling and other optimization techniques were not implemented.
+<br/><br/>
+![](images/decoder_acc_graph.png)
+
+
 ## Progress
 - [x] Implementing model
-- [ ] Implementing training regime
-- [ ] Training Model
-- [ ] Testing model
+- [x] Implementing training regime
+- [x] Training Model
+- [x] Testing model
+- [x] Implemented server
