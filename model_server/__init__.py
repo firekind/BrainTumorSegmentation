@@ -60,7 +60,6 @@ def process_request(dir_path: Path, **kwargs) -> Union[np.ndarray, Tuple[Path, s
 
     # sorting the paths so that it will be in the following order: flair, t1, t1ce, t2
     data_file_paths.sort()
-    logger.debug("paths: %s", data_file_paths)
 
     # preparing data to be used as the base for the final overlay
     overlay_base = prepare_data_for_overlay(data_file_paths[0], out_shape=out_shape[1:])
