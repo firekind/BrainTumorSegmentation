@@ -1,0 +1,12 @@
+{
+	"input_shape": [4, 80, 96, 64],
+	"output_shape": [3, 80, 96, 64],
+	"output_channels": 3,
+	"model_path": "saved_models/1/",
+	"red_multiplier": [1, 0.2, 0.2],
+  	"green_multiplier": [0.35,0.75,0.25],
+  	"yellow_multiplier": [1,1,0.25],
+	"overlay_threshold": 0.8,
+	"res_file_name": "res.nii.gz",
+	"integrity_test_folder": ""
+}
