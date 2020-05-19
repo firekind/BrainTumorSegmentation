@@ -22,7 +22,7 @@ $ python app.py
 ```
 
 ## Results
-Managed to get upto 80% accuracy in 800 epochs. This differs from the accuracy and number of epochs stated in the paper as learning rate scheduling and other optimization techniques were not implemented.
+Managed to get upto 80% training accuracy in 800 epochs. This differs from the accuracy and number of epochs stated in the paper as learning rate scheduling and other optimization techniques were not implemented.
 <br/><br/>
 ![](images/decoder_acc_graph.png)
 
