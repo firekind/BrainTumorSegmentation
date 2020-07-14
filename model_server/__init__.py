@@ -97,7 +97,7 @@ def process_request(dir_path: Path, **kwargs) -> Union[np.ndarray, Tuple[Path, s
     # saving result
     if kwargs.get("save_output", True):
         if kwargs.get("as_numpy", True):
-            logger.info("Saving as numpy array")
+            logger.info("Saving as numpy array...")
             np.save(dir_path / res_file, overlaid)
             res_file += ".npy"
         else:
