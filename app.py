@@ -56,7 +56,7 @@ def stream_res(file_dir: Path, filename: str, delete_dir: bool = True) -> bytes:
     app.logger.info("Response sent.")
 
 
-@app.route('/api/upload', methods=["POST"])
+@app.route('/api/upload', methods=["GET"])
 def upload() -> Response:
     app.logger.info("Received request.")
 
