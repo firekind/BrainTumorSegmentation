@@ -99,7 +99,7 @@ def process_request(dir_path: Path, **kwargs) -> Union[np.ndarray, Tuple[Path, s
         if kwargs.get("as_numpy", True):
             logger.info("saving as numpy array")
             np.save(dir_path / res_file, overlaid)
-        else
+        else:
             sitk.WriteImage(sitk.GetImageFromArray(overlaid), str(dir_path / res_file))
         logger.info("Results saved.")
         return dir_path, res_file
