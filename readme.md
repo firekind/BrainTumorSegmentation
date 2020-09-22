@@ -27,9 +27,5 @@ Managed to get upto 80% training accuracy in 800 epochs. This differs from the a
 ![](images/decoder_acc_graph.png)
 
 
-## Progress
-- [x] Implementing model
-- [x] Implementing training regime
-- [x] Training Model
-- [x] Testing model
-- [x] Implemented server
+## Appendix
+Link to the project report: [link](https://gitlab.com/firekind/university/-/blob/sem-6/Project/project%20report.pdf)
